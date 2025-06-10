@@ -7,14 +7,21 @@ import Login from './pages/Login/Login';
 import ProductList from './pages/Products/ProductList/ProductList';
 import Cart from './components/Cart/Cart';
 import Stopwatch from './components/StopWatch/StopWatch';
+import IncreaseQuantityButton from './components/Button/IncreaseQuantityButton/IncreaseQuantityButton';
+import BasicFormWithReducer from './components/Form/BasicFormWithReducer';
+import Counter from './components/Button/Counter/CounterToTestUseCallback/Counter';
+
 function App() {
   return (
-      <Stopwatch />
-      // <div>
-      //   <h1>My Shop</h1>
-      //   <ProductList />
-      //   <Cart />
-      // </div>
+    // <IncreaseQuantityButton />
+      // <Stopwatch />
+      <>
+      <Counter />
+      {/* <BasicFormWithReducer /> */}
+        {/* <h1>My Shop</h1>
+        <ProductList />
+        <Cart /> */}
+      </>
 
     );
 }
